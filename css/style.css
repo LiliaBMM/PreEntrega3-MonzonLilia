@@ -165,6 +165,10 @@ main nav a{
     font-family: 'Roboto', sans-serif ;
     font-weight: 200;
 }
+.cartas{
+    border: 1px solid rebeccapurple;
+    margin-bottom: 20px;
+}
 .comprar{
     color: rgb(255, 0, 8) ;
     background-color: rgb(241, 204, 221);

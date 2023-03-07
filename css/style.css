@@ -1,0 +1,255 @@
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Inicio del header*/
+h1 {
+    color:blueviolet ;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+    font-size: 45px;
+    letter-spacing: 4px;
+    word-spacing: 15px;
+    }
+.cabeza{
+    background-color: rgb(241, 204, 221);
+    margin-bottom: 10px;
+}    
+.listasin{
+    list-style: none;
+}
+.anclacabeza{
+    color: rgb(255, 0, 8) ;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-decoration: none ;
+    list-style: none; 
+    }
+.listahead{
+    border: 1px solid rgb(190, 40, 135);
+    padding: 10px 20px;
+    background-color: rgb(241, 204, 221);
+}
+.fondo{
+    background-color: rgba(241, 204, 221, 0.5);
+    color: rgb(188, 39, 133) ;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    border: 1px solid rgba(185, 143, 217, 1);
+    padding: 10px 20px ;
+}
+/*flexbox header*/
+.cabeza{
+    display: flex;
+    align-items: center ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.listasin{
+    display: flex;
+    justify-content:space-evenly ;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+/*Fin del header*/
+
+/*Inicio del contenido index*/
+.titulo2{
+    color:rgb(76, 12, 140) ;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(241, 204, 221, 0.5);
+}
+.texvideo{
+    color: rgb(138, 43, 230) ;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    font-size: 20px;
+    display: flex ;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.titulo3 {
+    color: violet;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+.parrrafo-index {
+    color: royalblue;
+    text-align: justify;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+/*flexbox contenido index*/
+.divindex {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+ }
+.reverse{
+    flex-direction: row-reverse;
+    flex-direction: column;
+    justify-content: center;
+}
+/*grid contenido index*/
+.uno{
+    grid-area: uno;
+    align-content: end;
+}
+.dos{
+    grid-area: dos;
+    align-content: start;
+}
+.tres{
+    grid-area: tres;
+    align-content: end;
+}
+.textuno{
+    grid-area: textuno;
+}
+.textdos{
+    grid-area: textdos;
+    text-align: end;
+}
+.texttres{
+    grid-area: texttres;
+}
+.grilla{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.8fr 0.8fr 0.8fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-areas:
+    "uno textuno ."
+    ". textdos dos"
+    "tres texttres .";
+    align-items: center;
+    align-content: center;
+}
+/*Fin del contenido index*/
+
+/*Inicio del section index*/
+.video{
+    display: flex;
+    justify-content: center;
+}
+/*Fin del section index*/
+
+/*Inicio del contenido de maquillaje, accesorios y skincare*/
+main nav a{
+    color: rebeccapurple;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 15px;
+    font-weight: 100;
+    text-decoration: none;
+}
+.parrafo{
+    color: rgb(60, 22, 15);
+    font-family: 'Roboto', sans-serif ;
+    font-weight: 200;
+}
+.comprar{
+    color: rgb(255, 0, 8) ;
+    background-color: rgb(241, 204, 221);
+    text-decoration: none;
+    border: 1px solid rgb(185, 143, 217, 1);
+    padding: 5px ;
+    border-radius: 0px;
+}
+.siguiente{
+    color: black;
+    text-decoration: underline;
+}
+/*Fin del contenido de maquillaje, accesorios y skincare*/
+
+/*Inicio de contactenos*/
+.contacto{
+    color: red;
+    font-family:'Roboto', sans-serif ;
+    font-size: 16px;
+    font-weight: 200;
+}
+.enviar{
+    color: wheat;
+    font-family:'Roboto', sans-serif ;
+    font-size: 16px;
+    font-weight: 200;
+    background-color: rgba(138, 43, 226 , 0.7);
+    border: 1px solid violet;
+    padding: 3px ;
+}
+/*Fin de contactenos*/
+
+/*Inicio del footer*/
+/*footer section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+}*/
+footer p{
+    color: green;
+    font-size: 15px;
+    font-family:  'Roboto Slab', serif;
+    font-weight: 100;
+}
+/*grilla footer*/
+.map{
+    grid-area: map;
+}
+.mail{
+    grid-area: mail;
+}
+.tlf{
+    grid-area: tlf;
+}
+.what{
+    grid-area: what;
+}
+.face{
+    grid-area: face;
+}
+.inst{
+    grid-area: inst;
+}
+.grillapie{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows:2fr 2fr 2fr;
+    grid-template-areas: 
+    "map mail face" 
+    "map what inst"
+    "map tlf .";
+    margin-left: 20px;
+}
+/*Fin del footer*/
+
+/*Inicio de media queries*/
+@media screen and (max-width: 576px){
+    .grilla{
+        flex-direction: column;
+    }
+    .cabeza{
+        flex-direction: column;
+    }
+    section nav ul li{
+        flex-direction: column;
+    }
+}

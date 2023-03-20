@@ -1,0 +1,42 @@
+.linkactivo {
+  background-color: rgb(241, 204, 221);
+  color: rgb(188, 39, 133);
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  border: 1px solid rgb(185, 143, 217);
+  padding: 10px 20px;
+}
+
+header nav {
+  display: flex;
+  flex-wrap: wrapS;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.linkinactivo {
+  border: 0.5px solid rgb(185, 143, 217);
+  padding: 10px 20px;
+  background-color: rgba(241, 204, 221, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: blueviolet;
+  font-family: "Roboto Slab", serif;
+  font-weight: 800;
+  font-size: 45px;
+  letter-spacing: 4px;
+  word-spacing: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(241, 204, 221);
+}
+
+/*# sourceMappingURL=styles.css.map */

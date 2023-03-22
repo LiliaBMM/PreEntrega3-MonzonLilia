@@ -1,19 +1,17 @@
 .linkactivo{
     background-color: $fondooscuro;
-    color: rgb(188, 39, 133) ;
+    color: nth($colores , 11);
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     border: 1px solid $bordeclaro;
     padding: 10px 20px ;
 }
-header{
-    nav{
+.barramia{
         display: flex;
-        flex-wrap: wrapS;
-        flex-direction: column;
+        flex-wrap: wrap;
+        flex-direction: row;
         justify-content: space-evenly;
-    }
 }
 .linkinactivo{
     border: 0.5px solid $bordeclaro;

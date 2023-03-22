@@ -1,0 +1,76 @@
+.parrafo{
+    color: nth($colores, 5);
+    font-family: map-get($titulos, familiatitulo3);
+    font-weight: 200;
+}
+.comprar{
+    color: nth($colores, 4);
+    background-color: $fondooscuro;
+    text-decoration: none;
+    border: 1px, solid, $bordeclaro;
+    padding: 5px;
+    border-radius: 0px;
+}
+.cartas{
+    border: 1px, solid, nth($colores, 6);
+    margin-top: 20px;
+    margin-left: map-get($titulos, margenarriba);
+}
+.divindex {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+  }  
+.reverse {
+    flex-direction: row-reverse;
+    flex-direction: column;
+    justify-content: center;
+  }
+.imagen-carrusel{
+    width: auto;
+    border: (1px,solid, nth($colores, 10)) ;
+    border-radius: 5px;
+  }
+.titulocarrusel{
+    color: nth($colores, 8);
+    font-family: map-get($titulos, familiatitulo3);
+    font-weight: map-get($titulos, pesotitulo3);
+    font-size: map-get($titulos, tamatitulo3);
+    background-color: nth($colores , 10);
+    border-radius: 30px;
+    padding: 3px;
+}  
+.parrrafocarrusel{
+    color: nth($colores, 5);
+    font-family: map-get($titulos, familiatitulo3);
+    font-weight: 200;
+    background-color: nth($colores , 8);
+    border-radius: 30px;
+    padding: 3px;
+}
+.icono{
+    color: nth($colores, 5);
+}
+.caption-mine{
+    color: nth($colores,5);
+}
+.indicador{
+    background-color: $fondooscuro;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}  
+.texvideo{
+    color: nth($colores, 9);
+    font-family: 'Roboto Slab', serif;
+    font-size: $talla;
+    font-weight: $peso;
+    display: flex ;
+    justify-content: center;
+    gap: 30px;
+    margin-top: map-get($titulos, margenabajo);
+}

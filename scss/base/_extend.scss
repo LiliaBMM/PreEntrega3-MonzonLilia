@@ -1,0 +1,11 @@
+%parrafoindex   {
+    color: nth($colores , 7);
+    text-align: justify;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    font-size: 15px;    
+}
+%posicion{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,28 @@
+.map{
+    grid-area: map;
+}
+.mail{
+    grid-area: mail;
+}
+.tlf{
+    grid-area: tlf;
+}
+.what{
+    grid-area: what;
+}
+.face{
+    grid-area: face;
+}
+.inst{
+    grid-area: inst;
+}
+.grillapie{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows:2fr 2fr 2fr;
+    grid-template-areas: 
+    "map mail face" 
+    "map what inst"
+    "map tlf .";
+    margin-left: 20px;
+}

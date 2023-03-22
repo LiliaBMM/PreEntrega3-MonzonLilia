@@ -1,0 +1,46 @@
+.titulo3{
+    color: nth($colores, 8);
+    font-family: map-get($titulos, familiatitulo3);
+    font-weight: map-get($titulos, pesotitulo3);
+    font-size: map-get($titulos, tamatitulo3);
+}
+.parrafo-index{
+    @extend %parrafoindex;
+}
+.titulo2{
+    color: nth($colores, 10);
+    font-family: map-get($titulos, familiatitulo3);
+    font-weight: map-get($titulos, pesotitulo2);
+    margin-top: map-get($titulos, margenarriba);
+    margin-bottom: map-get($titulos, margenabajo);
+    @extend %posicion;
+    background-color: $fondoclaro;
+}
+.uno{
+    align-content: end;
+}
+.dos{
+    align-content: start;
+}
+.tres{
+    align-content: end;
+}
+.grilla{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.8fr 0.8fr 0.8fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-areas:
+    "uno textuno ."
+    ". textdos dos"
+    "tres texttres .";
+    align-items: center;
+    align-content: center;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+    flex-direction: column;
+    justify-content: center;
+}

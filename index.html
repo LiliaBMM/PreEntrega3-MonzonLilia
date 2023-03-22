@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vallita Cosméticos</title>
+    <title>Vallita Cosméticos: Los mejores maquillajes y productos para el cuidado de tu piel</title>
+    <meta name="description"content="Somos los mejores distribuidores de cosméticos y productos de belleza del estado Bolívar">
+    <meta property="cosméticos, belleza, cuidado, piel, maquillaje, Guasipáti, Bolívar, accesorios, eyeshadow, eyeliner, lipgloss, skincare">
     <link rel="shortcut icon" href="./imagenes/favicon.jpg" type="image/x-icon">
     <!--Fonts de google-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,64 +16,99 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!--CSS-->
     <link rel="stylesheet" href="./css/styles.css">
+    <!--Animated-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
-<!--script de bootstrap-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>    
-
 <!--Aqui comienza el head-->   
 <header>
-    <h1><img src="./imagenes/logo1.jpg" alt="vallitacosmeticos">Vallita Cosméticos</h1>
-    <nav class="container-fluid">
-        <div class="row">
-            <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link active linkactivo" aria-current="page" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link linkinactivo" href="./pages/maquillaje.html">Maquillaje</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link linkinactivo" href="./pages/skincare.html">Skincare</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link linkinactivo" href="./pages/accesorios.html">Accesorios</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link linkinactivo" href="./pages/contactenos.html">Contáctenos</a>
-                </li>
-            </ul>
+    <div class="logoheader">
+        <img src="./imagenes/logo1.jpg" alt="vallitacosmeticos">
+    </div>
+    <h1 class="animate__animated animate__slideInDown">Vallita Cosméticos</h1>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid barramia">
+            <div class="row col-lg-4">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link linkactivo" href="./index.html">Inicio</a>
+              <a class="nav-link linkinactivo" href="./pages/maquillaje.html">Maquillaje</a>
+              <a class="nav-link linkinactivo" href="./pages/skincare.html">Skincare</a>
+              <a class="nav-link linkinactivo" href="./pages/accesorios.html">Accesorios</a>
+              <a class="nav-link linkinactivo" href="./pages/contactenos.html">Contáctenos</a>
+            </div>
+          </div>
         </div>
-    </nav>  
-</header>    
-<!--Inicio del contenido--> 
-    <main>
-        <h2 class="titulo2">Destacados</h2>
-       <section class="grilla">
-             <div class="divindex uno" >
-                <img src="./imagenes/cocourban.jpg" alt="Paleta de sombras para ojos cocourban">
+      </nav>
+</header>
+
+<!--inicio de contenido-->
+<main>
+    <h2 class="titulo2">Destacados</h2>
+    <div class="container">
+        <div class="row">
+            <div id="carouselExampleCaptions" class="carousel slide col-6 container-fluid">
+                <div class="carousel-indicators indicador">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Foto 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Foto 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Foto 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Foto 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Foto 5"></button>
+                </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active carrusel">
+                    <img src="./imagenes/sombras choose happy.jpg" class="d-block w-100 imagen-carrusel" alt="Paleta de sombras para ojos que contiene 30 tonos de glitter y tiene espejo">
+                    <div class="carousel-caption d-none d-md-block caption-mine">
+                    <h5 class="titulocarrusel">Paleta de sombras Choose Happy</h5>
+                    <p class="parrrafocarrusel">Contiene contiene 30 tonos de glitter y tiene espejo.</p>
+                    </div>
+                </div>
+                <div class="carousel-item carrusel">
+                    <img src="./imagenes/labial romantic bird.PNG" class="d-block w-100 imagen-carrusel" alt="Labial en barra Romantic bird">
+                    <div class="carousel-caption d-none d-md-block caption-mine">
+                    <h5 class="titulocarrusel">Labial en barra Romantic bird</h5>
+                    <p class="parrrafocarrusel">Su fórmula es muy suave, no maltrata ni reseca los labios, es matte.</p>
+                    </div>
+                </div>
+                <div class="carousel-item carrusel">
+                    <img src="./imagenes/hidratante helado.PNG" class="d-block w-100 imagen-carrusel" alt="Hidratante de labios heladito">
+                    <div class="carousel-caption d-none d-md-block caption-mine">
+                    <h5 class="titulocarrusel">Hidratante de labios heladito</h5>
+                    <p class="parrrafocarrusel">Brinda hidratación y nutrición, consiguiendo labios suaves, sanos y hermosos.</p>
+                    </div> 
+                </div>
+                <div class="carousel-item carrusel">
+                    <img src="./imagenes/eyeliner max volum.PNG" class="d-block w-100 imagen-carrusel" alt="Máscara para pestañas máximo volumer">
+                    <div class="carousel-caption d-none d-md-block caption-mine">
+                    <h5 class="titulocarrusel">Eyeliner Max Volum Plus</h5>
+                    <p class="parrrafocarrusel">Alarga y brinda volumen máximo a tus pestañas, es lavable pero no se corre ni se riega.</p>
+                    </div>
+                </div>
+                <div class="carousel-item carrusel">
+                    <img src="./imagenes/lipserum.PNG" class="d-block w-100 imagen-carrusel" alt="lipserum Brinda una acción hidratante y nutritiva consiguiendo unos labios suaves">
+                    <div class="carousel-caption d-none d-md-block caption-mine">
+                    <h5 class="titulocarrusel">Lip Sérum</h5>
+                    <p class="parrrafocarrusel">Brinda una acción hidratante y nutritiva consiguiendo unos labios suaves.</p>
+                    </div>
+                </div>
+                </div>
+                <button class="carousel-control-prev enviar" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden parrrafocarrusel">Anterior</span>
+                </button>
+                <button class="carousel-control-next enviar" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon icono" aria-hidden="true"></span>
+                <span class="visually-hidden parrrafocarrusel">Siguiente</span>
+                </button>
             </div>
-            <span class="textuno">    
-                <h3 class="titulo3">Paleta de sombras para ojos cocourban</h3>
-                <p class="parrrafo-index">Contiene 63 tonos de sombras y 12 tonos que funcionan como rubores, iluminadores y contornos.</p>
-            </span>
-            <div class="divindex reverse dos">
-                <img src="./imagenes/contour.jpg" alt="contour">
-            </div>
-            <span class="textdos">    
-                <h3 class="titulo3">Contorno</h3>
-                <p class="parrrafo-index">Su fórmula es muy suave, se difumina perfectamente en la piel. Contienen unos tonos perfectos para darle dimensión y color a tu rostro.</p>
-            </span>
-            <div class="divindex tres">
-                <img src="./imagenes/lipgloss.jpg" alt="lipgloss">
-            </div>
-            <span class="texttres">
-                <h3 class="titulo3">Sombra de ojos</h3>
-                <p class="parrrafo-index">Son 12 tonos matte que no maltratan ni reseca los labios. Humecta, suaviza y son de larga duración.</p>
-            </span>    
-             
-        </section>  
-    </main>
+        </div>
+    </div>
+</main>
+<!--fin del contenido--> 
 <!--Inicio de un section-->
     <section>
         <h2 class="titulo2">Video tutorial</h2>

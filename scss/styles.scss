@@ -1,16 +1,22 @@
 //base**************************************************
 @import'./base/variables';
+@import'./base/listas';
+@import'./base/mapa';
+@import'./base/extend';
 
 //componentes******************************************
+@import'./components/encabezado';
 @import'./components/barranav';
+@import'./components/grillaindex';
+@import'./components/contenidos';
+@import'./components/contacto';
+@import'./components/pie';
+
 
 //globales***************************************
-*{
-    margin: 0;
-    padding: 0;
-}
+
 h1{
-    color:blueviolet ;
+    color: blueviolet ;
     font-family: 'Roboto Slab', serif;
     font-weight: 800;
     font-size: 45px;
@@ -20,5 +26,22 @@ h1{
     justify-content: space-evenly;
     align-items: center;
     background-color: $fondooscuro;
+    text-align: center;
+     /* ff 3.6+ */
+    background:-moz-radial-gradient(ellipse at 50% 50%, rgba(238, 130, 238, 1) 0%, rgba(233, 30, 99, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(ellipse at 50% 50%, rgba(238, 130, 238, 1) 0%, rgba(233, 30, 99, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(ellipse at 50% 50%, rgba(238, 130, 238, 1) 0%, rgba(233, 30, 99, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(ellipse at 50% 50%, rgba(238, 130, 238, 1) 0%, rgba(233, 30, 99, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(ellipse at 50% 50%, rgba(238, 130, 238, 1) 0%, rgba(233, 30, 99, 1) 100%);
+
 }
 
+    

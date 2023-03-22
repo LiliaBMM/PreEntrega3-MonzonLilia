@@ -1,3 +1,22 @@
+.parrafo-index {
+  color: royalblue;
+  text-align: justify;
+  font-family: "Roboto Slab", serif;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.titulo2 {
+  display: flex;
+  justify-content: center;
+}
+
+.logoheader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .linkactivo {
   background-color: rgb(241, 204, 221);
   color: rgb(188, 39, 133);
@@ -8,10 +27,10 @@
   padding: 10px 20px;
 }
 
-header nav {
+.barramia {
   display: flex;
-  flex-wrap: wrapS;
-  flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-evenly;
 }
 
@@ -21,9 +40,192 @@ header nav {
   background-color: rgba(241, 204, 221, 0.5);
 }
 
-* {
-  margin: 0;
-  padding: 0;
+.titulo3 {
+  color: violet;
+  font-family: "Roboto Slab" serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.titulo2 {
+  color: rgb(76, 12, 140);
+  font-family: "Roboto Slab" serif;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: rgba(241, 204, 221, 0.5);
+}
+
+.uno {
+  align-content: end;
+}
+
+.dos {
+  align-content: start;
+}
+
+.tres {
+  align-content: end;
+}
+
+.grilla {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 0.8fr 0.8fr 0.8fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-areas: "uno textuno ." ". textdos dos" "tres texttres .";
+  align-items: center;
+  align-content: center;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.parrafo {
+  color: rgb(60, 22, 15);
+  font-family: "Roboto Slab" serif;
+  font-weight: 200;
+}
+
+.comprar {
+  color: rgb(255, 0, 8);
+  background-color: rgb(241, 204, 221);
+  text-decoration: none;
+  border: 1px, solid, rgb(185, 143, 217);
+  padding: 5px;
+  border-radius: 0px;
+}
+
+.cartas {
+  border: 1px, solid, rebeccapurple;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.divindex {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imagen-carrusel {
+  width: auto;
+  border: 1px, solid, rgb(76, 12, 140);
+  border-radius: 5px;
+}
+
+.titulocarrusel {
+  color: violet;
+  font-family: "Roboto Slab" serif;
+  font-weight: 300;
+  font-size: 20px;
+  background-color: rgb(76, 12, 140);
+  border-radius: 30px;
+  padding: 3px;
+}
+
+.parrrafocarrusel {
+  color: rgb(60, 22, 15);
+  font-family: "Roboto Slab" serif;
+  font-weight: 200;
+  background-color: violet;
+  border-radius: 30px;
+  padding: 3px;
+}
+
+.icono {
+  color: rgb(60, 22, 15);
+}
+
+.caption-mine {
+  color: rgb(60, 22, 15);
+}
+
+.indicador {
+  background-color: rgb(241, 204, 221);
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+.texvideo {
+  color: rgb(138, 43, 230);
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.formulario {
+  margin-left: 20px;
+}
+
+.cuadro {
+  border-color: rgb(185, 143, 217);
+  border-radius: 5px;
+}
+
+.enviar {
+  color: rgb(76, 12, 140);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  background-color: rgb(241, 204, 221);
+  border-color: 1px solid violet;
+  margin-top: 15px;
+  padding: 3px;
+  margin-left: 20px;
+  width: 5%;
+}
+
+.map {
+  grid-area: map;
+}
+
+.mail {
+  grid-area: mail;
+}
+
+.tlf {
+  grid-area: tlf;
+}
+
+.what {
+  grid-area: what;
+}
+
+.face {
+  grid-area: face;
+}
+
+.inst {
+  grid-area: inst;
+}
+
+.grillapie {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-template-rows: 2fr 2fr 2fr;
+  grid-template-areas: "map mail face" "map what inst" "map tlf .";
+  margin-left: 20px;
 }
 
 h1 {
@@ -37,6 +239,17 @@ h1 {
   justify-content: space-evenly;
   align-items: center;
   background-color: rgb(241, 204, 221);
+  text-align: center;
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(ellipse at 50% 50%, rgb(238, 130, 238) 0%, rgb(233, 30, 99) 100%);
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(ellipse at 50% 50%, rgb(238, 130, 238) 0%, rgb(233, 30, 99) 100%);
+  /* opera 11.10+ */
+  background: -o-radial-gradient(ellipse at 50% 50%, rgb(238, 130, 238) 0%, rgb(233, 30, 99) 100%);
+  /* ie 10+ */
+  background: -ms-radial-gradient(ellipse at 50% 50%, rgb(238, 130, 238) 0%, rgb(233, 30, 99) 100%);
+  /* global 92%+ browsers support */
+  background: radial-gradient(ellipse at 50% 50%, rgb(238, 130, 238) 0%, rgb(233, 30, 99) 100%);
 }
 
 /*# sourceMappingURL=styles.css.map */

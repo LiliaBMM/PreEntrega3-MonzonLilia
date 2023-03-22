@@ -1,0 +1,19 @@
+.formulario{
+    margin-left: 20px;   
+}
+.cuadro{
+    border-color: $bordeoscuro ;
+    border-radius: 5px;
+}
+.enviar{
+    color: nth($colores, 10);
+    font-family: $familia;
+    font-size: $talla;
+    font-weight: $peso;
+    background-color: $fondooscuro;
+    border-color: 1px solid nth($colores , 8);
+    margin-top: map-get($titulos , margenarriba);
+    padding: 3px;
+    margin-left: map-get($titulos, margenabajo);
+    width: 5%;
+}

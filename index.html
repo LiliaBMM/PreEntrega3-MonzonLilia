@@ -27,7 +27,7 @@
     </div>
     <h1 class="animate__animated animate__slideInDown">Vallita Cosméticos</h1>
     <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid barramia">
+        <div class="barramia">
             <div class="row col-lg-4">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -96,11 +96,11 @@
                     </div>
                 </div>
                 </div>
-                <button class="carousel-control-prev enviar" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <button class="carousel-control-prev botoncarrusel" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden parrrafocarrusel">Anterior</span>
                 </button>
-                <button class="carousel-control-next enviar" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <button class="carousel-control-next botoncarrusel" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
                 <span class="carousel-control-next-icon icono" aria-hidden="true"></span>
                 <span class="visually-hidden parrrafocarrusel">Siguiente</span>
                 </button>
@@ -112,8 +112,8 @@
 <!--Inicio de un section-->
     <section>
         <h2 class="titulo2">Video tutorial</h2>
-        <div  class="video"> 
-            <iframe width="460" height="300" src="https://www.youtube.com/embed/XV2g-SSa-2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="video"> 
+            <iframe width="300" height="300" src="https://www.youtube.com/embed/XV2g-SSa-2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
          </div>
          <span class="textvideo">
             <h3 class="texvideo">Maquillaje sencillo para principiantes</h3>
@@ -122,27 +122,35 @@
 <!--Inicio del footer-->
     <footer>
         <h2 class="titulo2">Ubícanos</h2>
-        <section class="grillapie">
-            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3955.9072419036197!2d-61.898142257007216!3d7.475494994033703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sGuasipati%2C%20Bol%C3%ADvar%20jeremy%20cake!5e0!3m2!1ses!2sve!4v1677775333675!5m2!1ses!2sve" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div class="mail">       
-                <img src="./imagenes/mail.png" alt="Vallita">
-                <p class="parrafo">vallitacosmeticos@gmail.com</p>
-            </div>
-            <div class="tlf">   
-                <img src="./imagenes/telefono.png" alt="Teléfono">
-                <p class="parrafo">0424-911.1087</p>
-            </div>   
-            <div class="what"> 
-                <img src="./imagenes/direccion.jpg" alt="Dirección">
-                <p class="parrafo">Guasipáti, Edo. Bolívar</p>
-            </div>
-            <div class="face">
-                <img src="./imagenes/facebook.jpg" alt="facebook">
-                <p class="parrafo">Vallita Cosméticos</p>
-            </div>
-            <div class="inst">
-                <img src="./imagenes/instagram.jpg" alt="Instagram">
-                <p class="parrafo">@vallitacosmeticos</p>
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 map">
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3955.9072419036197!2d-61.898142257007216!3d7.475494994033703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sGuasipati%2C%20Bol%C3%ADvar%20jeremy%20cake!5e0!3m2!1ses!2sve!4v1677775333675!5m2!1ses!2sve" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>  
+                <div class="col-lg-6 mail_tlf">
+                    <div>       
+                        <img src="./imagenes/mail.png" alt="Vallita">
+                        <p class="parrafo">vallitacosmeticos@gmail.com</p>
+                    </div>
+                    <div>   
+                        <img src="./imagenes/telefono.png" alt="Teléfono">
+                        <p class="parrafo">0424-911.1087</p>
+                    </div>   
+                </div> 
+                <div class="what_face_inst">
+                    <div> 
+                        <img src="./imagenes/direccion.jpg" alt="Dirección">
+                        <p class="parrafo">Guasipáti, Edo. Bolívar</p>
+                    </div>
+                    <div>
+                        <img src="./imagenes/facebook.jpg" alt="facebook">
+                        <p class="parrafo">Vallita Cosméticos</p>
+                    </div>
+                    <div>
+                        <img src="./imagenes/instagram.jpg" alt="Instagram">
+                        <p class="parrafo">@vallitacosmeticos</p>
+                    </div>
+                </div>         
             </div>
         </section>        
     </footer>

@@ -11,7 +11,11 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
 }
 .linkinactivo{
     border: 0.5px solid $bordeclaro;

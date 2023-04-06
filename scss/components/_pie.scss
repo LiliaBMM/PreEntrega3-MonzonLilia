@@ -1,28 +1,25 @@
 .map{
-    grid-area: map;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
-.mail{
-    grid-area: mail;
+.mail_tlf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
 }
-.tlf{
-    grid-area: tlf;
-}
-.what{
-    grid-area: what;
-}
-.face{
-    grid-area: face;
-}
-.inst{
-    grid-area: inst;
-}
-.grillapie{
-    display: grid;
-    grid-template-columns: 3fr 3fr 3fr;
-    grid-template-rows:2fr 2fr 2fr;
-    grid-template-areas: 
-    "map mail face" 
-    "map what inst"
-    "map tlf .";
-    margin-left: 20px;
+.what_face_inst{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 20px;    
+    margin-bottom: 20px;
+    flex-wrap: wrap;
 }

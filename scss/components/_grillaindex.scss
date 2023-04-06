@@ -4,7 +4,7 @@
     font-weight: map-get($titulos, pesotitulo3);
     font-size: map-get($titulos, tamatitulo3);
 }
-.parrafo-index{
+.parrrafo-index{
     @extend %parrafoindex;
 }
 .titulo2{

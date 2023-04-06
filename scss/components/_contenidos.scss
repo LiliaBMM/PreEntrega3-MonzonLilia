@@ -11,6 +11,10 @@
     padding: 5px;
     border-radius: 0px;
 }
+.contenedor_cartas{
+    display: flex;
+    justify-content: center;
+}
 .cartas{
     border: 1px, solid, nth($colores, 6);
     margin-top: 20px;
@@ -51,6 +55,17 @@
     border-radius: 30px;
     padding: 3px;
 }
+.botoncarrusel{
+    color: nth($colores, 10);
+    font-family: $familia;
+    font-size: $talla;
+    font-weight: $peso;
+    backgroung: bottom;
+    border-color: 1px solid nth($colores , 8);
+    margin-top: map-get($titulos , margenarriba);
+    padding: 3px;
+   
+}
 .icono{
     color: nth($colores, 5);
 }
@@ -63,6 +78,7 @@
 .video{
     display: flex;
     justify-content: center;
+    border-radius: 30px;
 }  
 .texvideo{
     color: nth($colores, 9);

@@ -1,5 +1,7 @@
 .formulario{
-    margin-left: 20px;   
+    margin-left: 20px;  
+    display: flex;
+    flex-direction: column; 
 }
 .cuadro{
     border-color: $bordeoscuro ;
@@ -15,5 +17,18 @@
     margin-top: map-get($titulos , margenarriba);
     padding: 3px;
     margin-left: map-get($titulos, margenabajo);
-    width: 5%;
+}
+.cuestinario{
+    display: flex;
+    flex-direction: row;
+    justify-items: end;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 10px;
 }

@@ -27,7 +27,7 @@
         </div>
         <h1 class="animate__animated animate__slideInDown">Vallita Cosméticos</h1>
         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid barramia">
+            <div class="barramia">
                 <div class="row col-lg-4">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -48,62 +48,92 @@
 <!--Inicio del main-->
     <main>
         <h2 class="titulo2">Contáctenos</h2>
-        <div class="col-sm-12 col-md-8 formulario">
-            <label for="formGroupExampleInput" class="form-label titulo3">Nombre</label>
-            <input type="text" class="form-control parrafo cuadro" id="formGroupExampleInput" placeholder="">
-        </div>
-        <div class="col-sm-12 col-md-8 formulario">
-            <label for="formGroupExampleInput2" class="form-label titulo3">Apellido</label>
-            <input type="text" class="form-control parrafo cuadro" id="formGroupExampleInput2" placeholder="">
-        </div>
-        <div class="col-sm-12 col-md-8 formulario">
-            <label for="inputEmail4" class="form-label titulo3">Email</label>
-            <input type="email" class="form-control parrafo cuadro" id="correo">
-        </div>        
-        <div class="col-sm-12 col-md-8 formulario">
-            <label for="exampleFormControlTextarea1" class="form-label titulo3">Deje su mensaje</label>
-            <textarea class="form-control parrafo cuadro" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <input type="submit" value="Enviar" class="enviar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="cuestinario">
+                    <div class="formulario col-lg-3 col-sm-12">
+                        <label for="formGroupExampleInput" class="form-label titulo3">Nombre</label>
+                        <input type="text" class="form-control parrafo cuadro" id="formGroupExampleInput" placeholder="">
+                    </div>    
+                    <div class="formulario col-lg-3 col-sm-12">
+                        <label for="formGroupExampleInput2" class="form-label titulo3">Apellido</label>
+                        <input type="text" class="form-control parrafo cuadro" id="formGroupExampleInput2" placeholder="">
+                    </div>
+                    <div class="formulario col-lg-3 col-sm-12">
+                        <label for="inputEmail4" class="form-label titulo3">Email</label>
+                        <input type="email" class="form-control parrafo cuadro" id="correo">
+                    </div> 
+                </div>
+                <div>
+                    <div class="formulario col-lg-6">
+                        <label for="exampleFormControlTextarea1" class="form-label titulo3">Deje su mensaje</label>
+                        <textarea class="form-control parrafo cuadro" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar" class="enviar">
+                    </div>
+                </div>
+            </div>
+        </div>    
     </main>    
 
 <!--Inicio de section-->
     <section>
         <h2 class="titulo2">Redes sociales</h2>
-        <p class="parrrafo-index">WhatsApp</p>
-        <a href=""><img src="../imagenes/whatsappContact.jpg" alt="WhatsApp"></a>
-        <p class="parrrafo-index">Instagram</p>
-        <a href=""><img src="../imagenes/instagramContact.jpg" alt="Instagram"></a>
-        <p class="parrrafo-index">facebook</p>
-        <a href=""><img src="../imagenes/facebookcontac.jpg" alt="facebook"></a>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="redes">
+                    <div class="col-lg-3 col-sm-12">
+                        <p class="parrrafo-index">WhatsApp</p>
+                        <a href=""><img src="../imagenes/whatsappContact.jpg" alt="WhatsApp"></a>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <p class="parrrafo-index">Instagram</p>
+                        <a href=""><img src="../imagenes/instagramContact.jpg" alt="Instagram"></a>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <p class="parrrafo-index">facebook</p>
+                        <a href=""><img src="../imagenes/facebookcontac.jpg" alt="facebook"></a>    
+                    </div>
+                </div>    
+            </div>
+        </div>
     </section>
 
 <!--Inicio del footer-->
     <footer>
         <h2 class="titulo2">Ubícanos</h2>
-        <section class="grillapie">
-            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3955.9072419036197!2d-61.898142257007216!3d7.475494994033703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sGuasipati%2C%20Bol%C3%ADvar%20jeremy%20cake!5e0!3m2!1ses!2sve!4v1677775333675!5m2!1ses!2sve" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div class="mail">       
-                <img src="../imagenes/mail.png" alt="Vallita">
-                <p class="parrrafo-index">vallitacosmeticos@gmail.com</p>
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 map">
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3955.9072419036197!2d-61.898142257007216!3d7.475494994033703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sGuasipati%2C%20Bol%C3%ADvar%20jeremy%20cake!5e0!3m2!1ses!2sve!4v1677775333675!5m2!1ses!2sve" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>  
+                <div class="col-lg-8 mail_tlf">
+                    <div>       
+                        <img src="../imagenes/mail.png" alt="Vallita">
+                        <p class="parrafo">vallitacosmeticos@gmail.com</p>
+                    </div>
+                    <div>   
+                        <img src="../imagenes/telefono.png" alt="Teléfono">
+                        <p class="parrafo">0424-911.1087</p>
+                    </div>   
+                </div> 
+                <div class="what_face_inst">
+                    <div> 
+                        <img src="../imagenes/direccion.jpg" alt="Dirección">
+                        <p class="parrafo">Guasipáti, Edo. Bolívar</p>
+                    </div>
+                    <div>
+                        <img src="../imagenes/facebook.jpg" alt="facebook">
+                        <p class="parrafo">Vallita Cosméticos</p>
+                    </div>
+                    <div>
+                        <img src="../imagenes/instagram.jpg" alt="Instagram">
+                        <p class="parrafo">@vallitacosmeticos</p>
+                    </div>
+                </div>         
             </div>
-            <div class="tlf">   
-                <img src="../imagenes/telefono.png" alt="Teléfono">
-                <p class="parrrafo-index">0424-911.1087</p>
-            </div>   
-            <div class="what"> 
-                <img src="../imagenes/direccion.jpg" alt="Dirección">
-                <p class="parrrafo-index">Guasipáti, Edo. Bolívar</p>
-            </div>
-            <div class="face">
-                <img src="../imagenes/facebook.jpg" alt="facebook">
-                <p class="parrrafo-index">Vallita Cosméticos</p>
-            </div>
-            <div class="inst">
-                <img src="../imagenes/instagram.jpg" alt="Instagram">
-                <p class="parrrafo-index">@vallitacosmeticos</p>
-            </div>
-        </section>  
+        </section>        
     </footer>
 <!--script de BS-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>        

@@ -60,7 +60,7 @@
     font-family: $familia;
     font-size: $talla;
     font-weight: $peso;
-    backgroung: bottom;
+    background: bottom;
     border-color: 1px solid nth($colores , 8);
     margin-top: map-get($titulos , margenarriba);
     padding: 3px;
